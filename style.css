@@ -7,6 +7,8 @@
 header {
     background-color: lightblue;
     text-align: center;
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
 .col-1 {
@@ -16,26 +18,27 @@ header {
     vertical-align: baseline;
     width: 100%;
     overflow: hidden;
-    max-height: 1600px;
+    max-height: 1200px;
+    flex-grow: 3;
 }
 
 .item {
-    overflow: hidden;
+    overflow: auto;
     position: relative;
     text-align: center;
-    margin: 15px;
     display: inline-block;
+    margin: auto;
 }
 
 img {
-    overflow: hidden;
+    overflow: auto;
     border-radius: 5px;
     width: 100%
 }
 
 @media (max-width: 500px) {
     .item {
-        width: 45%;
+        width: 40%;
     }
     .col-1{
         max-height: 900px;
@@ -47,15 +50,7 @@ img {
         flex-direction: row;
     }
 
-    header {
-        width: 300px;
-    }
-
     .item {
-        width: 30vw;
-    }
-
-    .col-1 {
-        max-width: 1000px;
+        width: 30%;
     }
 }
