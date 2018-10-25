@@ -38,10 +38,10 @@ img {
 
 @media (max-width: 500px) {
     .item {
-        width: 40%;
+        width: 29%;
     }
     .col-1{
-        max-height: 600px;
+        max-height: 550px;
     }
 }
 
