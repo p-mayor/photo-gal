@@ -13,20 +13,33 @@ header {
     display: flex;
     flex-flow: column wrap;
     background-color: lightcoral;
+    vertical-align: baseline;
+    width: 100%;
+    overflow: hidden;
+    max-height: 1600px;
 }
 
 .item {
     overflow: hidden;
     position: relative;
     text-align: center;
-    vertical-align: baseline;
+    margin: 15px;
+    display: inline-block;
+}
+
+img {
+    overflow: hidden;
+    border-radius: 5px;
+    width: 100%
 }
 
 @media (max-width: 500px) {
-    img {
-        width: 50%;
+    .item {
+        width: 45%;
     }
-
+    .col-1{
+        max-height: 900px;
+    }
 }
 
 @media (min-width: 500px) {
@@ -36,5 +49,13 @@ header {
 
     header {
         width: 300px;
+    }
+
+    .item {
+        width: 30vw;
+    }
+
+    .col-1 {
+        max-width: 1000px;
     }
 }
