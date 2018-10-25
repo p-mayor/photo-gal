@@ -4,40 +4,34 @@
     flex-direction: column;
 }
 
-main {
-    display: flex;
-    align-items: stretch;
-}
-
 header {
     background-color: lightblue;
     text-align: center;
 }
 
 .col-1 {
+    display: flex;
+    flex-flow: column wrap;
     background-color: lightcoral;
-    text-align: center;
 }
 
-
-img {
-    width: 236px;
-    padding: 15px;
+.item {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: baseline;
 }
 
 @media (max-width: 500px) {
     img {
-        width: 150px;
+        width: 50%;
     }
+
 }
 
 @media (min-width: 500px) {
     .container {
         flex-direction: row;
-    }
-
-    .col-1 {
-        align-items: center;
     }
 
     header {
