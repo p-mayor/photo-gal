@@ -19,7 +19,7 @@ header {
     width: 100%;
     overflow: hidden;
     max-height: 1200px;
-    flex-grow: 3;
+    flex-grow: 2;
 }
 
 .item {
@@ -41,7 +41,7 @@ img {
         width: 40%;
     }
     .col-1{
-        max-height: 900px;
+        max-height: 600px;
     }
 }
 
@@ -53,4 +53,15 @@ img {
     .item {
         width: 30%;
     }
+}
+
+@media (min-width: 1500px) {
+    .item {
+        width: 30%;
+    }
+
+    .col-1{
+        max-height: 1500px;
+    }
+
 }
