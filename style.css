@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+}
+
+header {
+    background-color: lightblue;
+}
+
+.col-1 {
+    background-color: lightcoral;
+    flex: 1;
+}
+
+.col-2 {
+    background-color: lightgreen;
+    flex: 1;
+}
