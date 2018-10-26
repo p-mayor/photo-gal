@@ -21,6 +21,10 @@ header {
     align-content: space-around;
 }
 
+.item {
+    margin: auto;
+}
+
 img {
     border-radius: 10px;
     width: 100%;
