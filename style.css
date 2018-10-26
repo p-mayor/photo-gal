@@ -74,3 +74,14 @@ img {
     }
 
 }
+
+@media (min-width: 1835px) {
+    .item {
+        width: 30%;
+    }
+
+    .col-1{
+        max-height: 1600px;
+    }
+
+}
