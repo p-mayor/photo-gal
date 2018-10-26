@@ -1,0 +1,1 @@
+A responsive photo gallery was created which mimics the popular masonry design.
