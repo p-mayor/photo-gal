@@ -6,6 +6,9 @@
 header {
     background-color: lightblue;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .col-1 {
