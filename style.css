@@ -77,11 +77,11 @@ img {
 
 @media (min-width: 1835px) {
     .item {
-        width: 30%;
+        width: 20%;
     }
 
     .col-1{
-        max-height: 1600px;
+        max-height: 1000px;
     }
 
 }
