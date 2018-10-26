@@ -9,7 +9,6 @@ header {
     text-align: center;
     flex-grow: 1;
     flex-basis: 0;
-    margin: auto;
 }
 
 .col-1 {
@@ -24,7 +23,7 @@ header {
 
 img {
     border-radius: 10px;
-    width: 100%
+    width: 100%;
 }
 
 @media (max-width: 500px) {
