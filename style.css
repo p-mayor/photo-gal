@@ -21,10 +21,11 @@ header {
     width: 100%;
     max-height: 1200px;
     flex-grow: 2;
+    align-items: center;
 }
 
 .item {
-    margin: auto;
+    margin: 10px;
 }
 
 img {
@@ -32,9 +33,9 @@ img {
     width: 100%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 699px) {
     .item {
-        width: 35%;
+        width: 30%;
     }
     .col-1{
         max-height: 750px;
@@ -57,24 +58,30 @@ img {
     .item {
         width: 30%;
     }
+    .col-1 {
+        max-height: 800px;
+    }
 }
 
-@media (min-width: 1500px) {
-    .item {
-        width: 30%;
+@media (min-width: 980px) {
+    .col-1 {
+        max-height: 1200px;
     }
+}
+
+@media (min-width: 1450px) {
     .col-1{
         max-height: 1500px;
     }
 
 }
 
-@media (min-width: 1835px) {
+@media (min-width: 1800px) {
     .item {
         width: 20%;
     }
     .col-1{
-        max-height: 1000px;
+        max-height: 1100px;
     }
 
 }
