@@ -9,6 +9,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-grow: 1;
 }
 
 .col-1 {
