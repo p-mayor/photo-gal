@@ -68,13 +68,7 @@ img {
     }
 }
 
-@media (min-width: 980px) {
-    .col-1 {
-        max-height: 1200px;
-    }
-}
-
-@media (min-width: 1450px) {
+@media (min-width: 1200px) {
     .col-1{
         max-height: 1500px;
     }
