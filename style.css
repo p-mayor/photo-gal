@@ -35,18 +35,13 @@ img {
     width: 100%;
 }
 
-@media (max-width: 400px) {
-    .col-1{
-        max-height: 600px;
-    }
-}
 
 @media (max-width: 699px) {
     .item {
-        width: 31%;
+        width: 25%;
     }
     .col-1{
-        max-height: 950px;
+        max-height: 600px;
     }
 }
 
