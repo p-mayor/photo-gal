@@ -32,10 +32,10 @@ img {
 
 @media (max-width: 500px) {
     .item {
-        width: 29%;
+        width: 35%;
     }
     .col-1{
-        max-height: 550px;
+        max-height: 750px;
     }
 }
 
@@ -48,7 +48,7 @@ img {
     }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
     .container {
         flex-direction: row;
     }
