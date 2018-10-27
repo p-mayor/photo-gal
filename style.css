@@ -36,12 +36,23 @@ img {
 }
 
 
-@media (max-width: 699px) {
+@media (max-width: 500px) {
     .item {
-        width: 25%;
+        width: 40%;
+        margin: 1px;
     }
     .col-1{
-        max-height: 600px;
+        max-height: 800px;
+    }
+}
+
+@media (min-width: 500px) {
+    .item {
+        width: 40%;
+        margin: 1px;
+    }
+    .col-1{
+        max-height: 1100px;
     }
 }
 
