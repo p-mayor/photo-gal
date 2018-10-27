@@ -23,6 +23,7 @@ header {
     max-height: 1200px;
     flex-grow: 2;
     align-items: center;
+    overflow: hidden;
 }
 
 .item {
