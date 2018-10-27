@@ -33,21 +33,21 @@ img {
     width: 100%;
 }
 
-@media (max-width: 699px) {
-    .item {
-        width: 30%;
-    }
-    .col-1{
-        max-height: 950px;
-    }
-}
-
 @media (max-width: 400px) {
     .item {
         width: 29%;
     }
     .col-1{
         max-height: 600px;
+    }
+}
+
+@media (max-width: 699px) {
+    .item {
+        width: 30%;
+    }
+    .col-1{
+        max-height: 950px;
     }
 }
 
